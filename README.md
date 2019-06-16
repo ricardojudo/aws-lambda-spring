@@ -8,7 +8,7 @@ The example relies on the project Spring Cloud functions which is intented to de
 
 ## SpringBootLambdaHandler
 
-Entry point of the execution. This handler sets the spring context and delegates the core to a `java.util.function.Function` instance
+Entry point of the execution. This handler initializes the spring context and delegates the core to a `java.util.function.Function` instance
 
 ## Function implementation
 
@@ -96,4 +96,4 @@ Notice that is required to set the handler value with the full qualified name of
 
 Just define a test event with a string value through the console and test.
 
-![Alt Lambda function deployment](docs/aws-console-1.png?raw=true "Lambda function testing")
+![Alt Lambda function testing](docs/aws-console-2.png?raw=true "Lambda function testing")
