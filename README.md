@@ -2,13 +2,13 @@
 
 This is a basic example of how to implement an AWS lambda function with Spring Boot. 
 
-The example relies on the project Spring Cloud functions which is intented to define a programatic model for writing serverless functions capable to run on diferent engines, including AWS Lambda functions.
+The example relies on the project Spring Cloud Functions. The idea is to define a programming model for writing serverless functions capable to run on different engines, including AWS Lambda functions.
 
 # Basic structure
 
 ## SpringBootLambdaHandler
 
-Entry point of the execution. This handler initializes the spring context and delegates the core to a `java.util.function.Function` instance
+Is required to create an subclass of the `SpringBootLambdaHandler` class that us the entry point of the execution. This handler initializes the spring context and delegates the core to a `java.util.function.Function` instance
 
 ## Function implementation
 
